@@ -1,0 +1,85 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  padding: 0;
+  text-align: center;
+  background-color: #f9f9f9;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: justify;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+}
+
+img {
+  display: block;
+  margin: 20px auto;
+  max-width: 100%;
+  height: auto;
+}
+
+h1, h2, p {
+  margin-bottom: 15px;
+  color: #333;
+}
+
+/* Estilo do formulário */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+input, textarea {
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1em;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+button {
+  padding: 12px;
+  background-color: navy;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  border-radius: 6px;
+  font-size: 1em;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #003366;
+}
+
+/* Responsividade para celular */
+@media (max-width: 600px) {
+  body {
+    margin: 10px;
+  }
+
+  .container {
+    padding: 15px;
+  }
+
+  input, textarea, button {
+    font-size: 1rem;
+  }
+
+  h1, h2 {
+    font-size: 1.3rem;
+    text-align: center;
+  }
+
+  p {
+    font-size: 1rem;
+  }
+}
